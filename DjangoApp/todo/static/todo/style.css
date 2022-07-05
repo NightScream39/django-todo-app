@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #eeeeee;
+  height: 100%;
+  margin: 0;
+}
+
+.button_slide {
+  color: #FFF;
+  border-radius: 0px;
+  padding: 15px 13px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #c7eefe;
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+}
+
+.slide_left:hover {
+  box-shadow: inset 0 0 0 50px #c7eefe;
+}
+
+#outer {
+
+  margin: auto 0 auto;
+  text-align: center;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.navbar {
+    padding: 0px;
+}
